@@ -1,0 +1,219 @@
+{
+  "Language": {
+    "Solve Problems": [
+      {
+        "Specific Capability": "Follow instructions",
+        "Description": "Ability to execute tasks based on a set of provided guidelines or instructions. Can handle multi-step instructions with detailed guidance spanning numerous steps and isntructions"
+      },
+      {
+        "Specific Capability": "Reason",
+        "Description": "Complete a variety of tasks by logically processing multiple steps using given data, context, or constraints. This approach is highly versatile—applicable to debugging, ideation, and any scenario that benefits from iterative thinking."
+      },
+      {
+        "Specific Capability": "Make recommendations",
+        "Description": "Provide recommendations tailored to user needs or preferences by leveraging reasoning capabilities. Considers user requirements and constraints while drawing on world knowledge to suggest relevant options."
+      },
+      {
+        "Specific Capability": "Assess compliance",
+        "Description": "Determine whether text meets specified guidelines by comparing the input against compliance criteria. This capability enables the model to generate an assessment on whether guidelines are satisfied."
+      },
+      {
+        "Specific Capability": "Act as an agent",
+        "Description": "Independently carry out tasks in a multi-step process, often using external tools and deciding how and when to apply them. Can conduct flexible and open-ended tasks than a predefined workflow."
+      }
+    ],
+    "Communicate": [
+      {
+        "Specific Capability": "Hold conversation",
+        "Description": "Engage in a dialogue by understanding user intent, answering questions, and maintaining context and conversation flow."
+      },
+      {
+        "Specific Capability": "Personalise messages",
+        "Description": "Adapt messages based on user attributes or past interactions."
+      },
+      {
+        "Specific Capability": "Mimic style",
+        "Description": "Imitate the tone or manner of a user or context to align the communication style."
+      },
+      {
+        "Specific Capability": "Explain & educate",
+        "Description": "Clarify information, concepts, and processes to assist users in understanding and learning."
+      }
+    ],
+    "Extract Info": [
+      {
+        "Specific Capability": "Recognise entities",
+        "Description": "Identify and categorise specific items such as names, places, or terms in text, and provide the extracted entities as an output."
+      },
+      {
+        "Specific Capability": "Extract structured data",
+        "Description": "Extract and organise information from unstructured sources into a structured format (e.g., JSON). Goes beyond basic keyword searches by understanding the meaning of the input, classifying it accordingly, and generating the data in a predefined schema or structure."
+      },
+      {
+        "Specific Capability": "Classify",
+        "Description": "Group data or text into predefined categories based on its characteristics or context."
+      }
+    ],
+    "Analyse & Transform": [
+      {
+        "Specific Capability": "Summarise",
+        "Description": "Deliver concise overviews of lengthy documents or unstructured text (including transcripts)."
+      },
+      {
+        "Specific Capability": "Detect sentiment & emotion",
+        "Description": "Recognise the mood, feeling, or emotion expressed in a text."
+      },
+      {
+        "Specific Capability": "Mimic text",
+        "Description": "Produce text that reflects the style, tone, or format of a reference or source text."
+      }
+    ],
+    "Generate Information": [
+      {
+        "Specific Capability": "Generate text",
+        "Description": "Produce written content based on various inputs, including text, data, images, or video."
+      },
+      {
+        "Specific Capability": "Re-write text",
+        "Description": "Modify existing text for new purposes while preserving its core meaning."
+      },
+      {
+        "Specific Capability": "Generating synthetic data",
+        "Description": "Create realistic synthetic data—structured or unstructured (e.g., conversations, customer profiles)—based on example data or guidelines."
+      },
+      {
+        "Specific Capability": "Generate code",
+        "Description": "Write code to fulfill user-specified requirements or prompts."
+      },
+      {
+        "Specific Capability": "Translate",
+        "Description": "Transform text from one language to another while preserving its intended meaning."
+      },
+      {
+        "Specific Capability": "Generate ideas",
+        "Description": "Produce new ideas, hypotheses, or scenarios, offer feedback, and participate in brainstorming discussions."
+      }
+    ]
+  },
+  "Vision": {
+    "Basic": [
+      {
+        "Specific Capability": "Text extraction",
+        "Description": "Identify and retrieve text content from an image."
+      },
+      {
+        "Specific Capability": "Object recognition",
+        "Description": "Recognise and categorise objects depicted in an image."
+      },
+      {
+        "Specific Capability": "Image classification",
+        "Description": "Categorise an image according to specific criteria."
+      }
+    ],
+    "Complex": [
+      {
+        "Specific Capability": "Complex image understanding",
+        "Description": "Comprehend an image at both high-level and granular detail, interpreting its content comprehensively."
+      },
+      {
+        "Specific Capability": "Visual reasoning",
+        "Description": "Analyse and interpret visual information to solve problems or tasks, such as counting objects or assessing spatial relationships."
+      },
+      {
+        "Specific Capability": "Video understanding",
+        "Description": "Interpret video content by examining multiple frames, effectively stitching information together for a broader context."
+      },
+      {
+        "Specific Capability": "Feedback on image or video",
+        "Description": "Offer feedback on an image or a video and recommend enhancements or modifications."
+      }
+    ]
+  },
+  "Voice, Music & Audio": {
+    "Voice Input & Output": [
+      {
+        "Specific Capability": "Transcribe",
+        "Description": "Convert audio into text transcripts, including timestamps and speaker annotations."
+      },
+      {
+        "Specific Capability": "Voice to voice",
+        "Description": "Facilitate voice-based interactions in a free-flowing manner without explicit transcription. The model naturally interprets speech, including emotional cues and ambient sounds, and can respond with natural-sounding voice output."
+      },
+      {
+        "Specific Capability": "Voice input",
+        "Description": "Transcribe spoken input into text for processing by the model. Note that certain non-verbal cues or nuances may be lost in the transcription."
+      },
+      {
+        "Specific Capability": "Voice output",
+        "Description": "Provide vocal responses generated from a text input, producing a realistic and natural-sounding voice."
+      },
+      {
+        "Specific Capability": "Voice cloning",
+        "Description": "Replicate and synthesise a specific voice to produce audio output from textual input, enabling the generation of speech in that voice."
+      },
+      {
+        "Specific Capability": "Music & audio generation",
+        "Description": "Create music or audio effects based on text prompts. Can produce vocal tracks, instrumental pieces, or sound effects to supplement media content. Can also mimic particular styles or genres."
+      }
+    ]
+  },
+  "Image & Video": {
+    "Image": [
+      {
+        "Specific Capability": "Text to image",
+        "Description": "Create images from a text-based prompt, with some capability to include text on images. These prompts can range from brief statements to longer paragraphs."
+      },
+      {
+        "Specific Capability": "Image editing",
+        "Description": "Modify an image by replacing specific elements with generated content or by extending the image boundaries."
+      },
+      {
+        "Specific Capability": "Image to Image",
+        "Description": "Convert or stylise an existing image according to a text prompt, altering its appearance while retaining the fundamental subject matter."
+      },
+      {
+        "Specific Capability": "Multiple Images to Image",
+        "Description": "Merge or blend multiple images into a single composite, integrating elements from each source image."
+      }
+    ],
+    "Video": [
+      {
+        "Specific Capability": "Text to video",
+        "Description": "Produce short videos from a text prompt."
+      },
+      {
+        "Specific Capability": "Image to video",
+        "Description": "Create a video from a still image, guided by a text prompt for greater control over style and content."
+      },
+      {
+        "Specific Capability": "Video to video",
+        "Description": "Transform one video into another by retaining the original’s actions but altering its style or adding overlays based on a text or image prompt."
+      },
+
+    ]
+  },
+  "Other": {
+    "Enabling Capability": [
+      {
+        "Specific Capability": "Integrate with tools",
+        "Description": "Collaborate with other software or tools (including search) to expand functional capabilities."
+      },
+      {
+        "Specific Capability": "Match schema",
+        "Description": "Produce outputs that adhere to a predefined schema or structure to facilitate integration with other systems."
+      },
+      {
+        "Specific Capability": "Search & extract",
+        "Description": "Access documentation or files to retrieve relevant information, then incorporate this data into the model’s context."
+      },
+      {
+        "Specific Capability": "Execute code",
+        "Description": "Run code snippets for tasks such as analyzing small datasets or executing lightweight software components."
+      },
+      {
+        "Specific Capability": "Analyse data",
+        "Description": "Use the code execution feature to write and run code against a dataset, allowing the model to analyse data through code."
+      }
+    ]
+  }
+}

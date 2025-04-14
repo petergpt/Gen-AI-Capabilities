@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Capabilities>
+  <Language>
+    <SolveProblems>
+      <Capability>
+        <SpecificCapability>Follow instructions</SpecificCapability>
+        <Description>Ability to execute tasks based on a set of provided guidelines or instructions. Can handle multi-step instructions with detailed guidance spanning numerous steps and isntructions</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Reason</SpecificCapability>
+        <Description>Complete a variety of tasks by logically processing multiple steps using given data, context, or constraints. This approach is highly versatile—applicable to debugging, ideation, and any scenario that benefits from iterative thinking.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Make recommendations</SpecificCapability>
+        <Description>Provide recommendations tailored to user needs or preferences by leveraging reasoning capabilities. Considers user requirements and constraints while drawing on world knowledge to suggest relevant options.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Assess compliance</SpecificCapability>
+        <Description>Determine whether text meets specified guidelines by comparing the input against compliance criteria. This capability enables the model to generate an assessment on whether guidelines are satisfied.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Act as an agent</SpecificCapability>
+        <Description>Independently carry out tasks in a multi-step process, often using external tools and deciding how and when to apply them. Can conduct flexible and open-ended tasks than a predefined workflow.</Description>
+      </Capability>
+    </SolveProblems>
+    <Communicate>
+      <Capability>
+        <SpecificCapability>Hold conversation</SpecificCapability>
+        <Description>Engage in a dialogue by understanding user intent, answering questions, and maintaining context and conversation flow.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Personalise messages</SpecificCapability>
+        <Description>Adapt messages based on user attributes or past interactions.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Mimic style</SpecificCapability>
+        <Description>Imitate the tone or manner of a user or context to align the communication style.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Explain &amp; educate</SpecificCapability>
+        <Description>Clarify information, concepts, and processes to assist users in understanding and learning.</Description>
+      </Capability>
+    </Communicate>
+    <ExtractInfo>
+      <Capability>
+        <SpecificCapability>Recognise entities</SpecificCapability>
+        <Description>Identify and categorise specific items such as names, places, or terms in text, and provide the extracted entities as an output.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Extract structured data</SpecificCapability>
+        <Description>Extract and organise information from unstructured sources into a structured format (e.g., JSON). Goes beyond basic keyword searches by understanding the meaning of the input, classifying it accordingly, and generating the data in a predefined schema or structure.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Classify</SpecificCapability>
+        <Description>Group data or text into predefined categories based on its characteristics or context.</Description>
+      </Capability>
+    </ExtractInfo>
+    <AnalyseTransform>
+      <Capability>
+        <SpecificCapability>Summarise</SpecificCapability>
+        <Description>Deliver concise overviews of lengthy documents or unstructured text (including transcripts).</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Detect sentiment &amp; emotion</SpecificCapability>
+        <Description>Recognise the mood, feeling, or emotion expressed in a text.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Mimic text</SpecificCapability>
+        <Description>Produce text that reflects the style, tone, or format of a reference or source text.</Description>
+      </Capability>
+    </AnalyseTransform>
+    <GenerateInformation>
+      <Capability>
+        <SpecificCapability>Generate text</SpecificCapability>
+        <Description>Produce written content based on various inputs, including text, data, images, or video.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Re-write text</SpecificCapability>
+        <Description>Modify existing text for new purposes while preserving its core meaning.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Generating synthetic data</SpecificCapability>
+        <Description>Create realistic synthetic data—structured or unstructured (e.g., conversations, customer profiles)—based on example data or guidelines.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Generate code</SpecificCapability>
+        <Description>Write code to fulfill user-specified requirements or prompts.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Translate</SpecificCapability>
+        <Description>Transform text from one language to another while preserving its intended meaning.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Generate ideas</SpecificCapability>
+        <Description>Produce new ideas, hypotheses, or scenarios, offer feedback, and participate in brainstorming discussions.</Description>
+      </Capability>
+    </GenerateInformation>
+  </Language>
+  <Vision>
+    <Basic>
+      <Capability>
+        <SpecificCapability>Text extraction</SpecificCapability>
+        <Description>Identify and retrieve text content from an image.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Object recognition</SpecificCapability>
+        <Description>Recognise and categorise objects depicted in an image.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Image classification</SpecificCapability>
+        <Description>Categorise an image according to specific criteria.</Description>
+      </Capability>
+    </Basic>
+    <Complex>
+      <Capability>
+        <SpecificCapability>Complex image understanding</SpecificCapability>
+        <Description>Comprehend an image at both high-level and granular detail, interpreting its content comprehensively.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Visual reasoning</SpecificCapability>
+        <Description>Analyse and interpret visual information to solve problems or tasks, such as counting objects or assessing spatial relationships.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Video understanding</SpecificCapability>
+        <Description>Interpret video content by examining multiple frames, effectively stitching information together for a broader context.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Feedback on image or video</SpecificCapability>
+        <Description>Offer feedback on an image or a video and recommend enhancements or modifications.</Description>
+      </Capability>
+    </Complex>
+  </Vision>
+  <VoiceMusicAudio>
+    <VoiceInputOutput>
+      <Capability>
+        <SpecificCapability>Transcribe</SpecificCapability>
+        <Description>Convert audio into text transcripts, including timestamps and speaker annotations.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Voice to voice</SpecificCapability>
+        <Description>Facilitate voice-based interactions in a free-flowing manner without explicit transcription. The model naturally interprets speech, including emotional cues and ambient sounds, and can respond with natural-sounding voice output.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Voice input</SpecificCapability>
+        <Description>Transcribe spoken input into text for processing by the model. Note that certain non-verbal cues or nuances may be lost in the transcription.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Voice output</SpecificCapability>
+        <Description>Provide vocal responses generated from a text input, producing a realistic and natural-sounding voice.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Voice cloning</SpecificCapability>
+        <Description>Replicate and synthesise a specific voice to produce audio output from textual input, enabling the generation of speech in that voice.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Music &amp; audio generation</SpecificCapability>
+        <Description>Create music or audio effects based on text prompts. Can produce vocal tracks, instrumental pieces, or sound effects to supplement media content. Can also mimic particular styles or genres.</Description>
+      </Capability>
+    </VoiceInputOutput>
+  </VoiceMusicAudio>
+  <ImageVideo>
+    <Image>
+      <Capability>
+        <SpecificCapability>Text to image</SpecificCapability>
+        <Description>Create images from a text-based prompt, with some capability to include text on images. These prompts can range from brief statements to longer paragraphs.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Image editing</SpecificCapability>
+        <Description>Modify an image by replacing specific elements with generated content or by extending the image boundaries.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Image to Image</SpecificCapability>
+        <Description>Convert or stylise an existing image according to a text prompt, altering its appearance while retaining the fundamental subject matter.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Multiple Images to Image</SpecificCapability>
+        <Description>Merge or blend multiple images into a single composite, integrating elements from each source image.</Description>
+      </Capability>
+    </Image>
+    <Video>
+      <Capability>
+        <SpecificCapability>Text to video</SpecificCapability>
+        <Description>Produce short videos from a text prompt.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Image to video</SpecificCapability>
+        <Description>Create a video from a still image, guided by a text prompt for greater control over style and content.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Video to video</SpecificCapability>
+        <Description>Transform one video into another by retaining the original’s actions but altering its style or adding overlays based on a text or image prompt.</Description>
+      </Capability>
+    </Video>
+  </ImageVideo>
+  <Other>
+    <EnablingCapability>
+      <Capability>
+        <SpecificCapability>Integrate with tools</SpecificCapability>
+        <Description>Collaborate with other software or tools (including search) to expand functional capabilities.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Match schema</SpecificCapability>
+        <Description>Produce outputs that adhere to a predefined schema or structure to facilitate integration with other systems.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Search &amp; extract</SpecificCapability>
+        <Description>Access documentation or files to retrieve relevant information, then incorporate this data into the model’s context.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Execute code</SpecificCapability>
+        <Description>Run code snippets for tasks such as analyzing small datasets or executing lightweight software components.</Description>
+      </Capability>
+      <Capability>
+        <SpecificCapability>Analyse data</SpecificCapability>
+        <Description>Use the code execution feature to write and run code against a dataset, allowing the model to analyse data through code.</Description>
+      </Capability>
+    </EnablingCapability>
+  </Other>
+</Capabilities>
